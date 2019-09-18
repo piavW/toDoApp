@@ -1,23 +1,15 @@
 import React from 'react'
+import Main from './main'
+import Header from './Header'
+import Footer from './Footer'
 
 
 function App() {
     return(
         <div>
-            <h2>Here is a to do list: </h2>
-
-            <p>Write your to-do's here</p>
-            <input type="field" />
-            <input type="checkbox"/>
-            <p>Write your to-do's here</p>
-            <input type="field" />
-            <input type="checkbox" />
-            <p>Write your to-do's here</p>
-            <input type="field" />
-            <input type="checkbox" />
-            <p>Write your to-do's here</p>
-            <input type="field" />
-            <input type="checkbox" />
+            <Header />
+            <Main />
+            <Footer />
         </div>
     )
 };
