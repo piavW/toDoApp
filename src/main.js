@@ -3,7 +3,7 @@ import React from 'react'
 
 function Main() {
     return(
-        <main>
+        <main className="main">
             <h2>Here is a to do list: </h2>
 
             <p>Write your to-do's here</p>
