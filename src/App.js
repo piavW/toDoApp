@@ -4,7 +4,20 @@ import React from 'react'
 function App() {
     return(
         <div>
-            <h1>Hello World!</h1>
+            <h2>Here is a to do list: </h2>
+
+            <p>Write your to-do's here</p>
+            <input type="field" />
+            <input type="checkbox"/>
+            <p>Write your to-do's here</p>
+            <input type="field" />
+            <input type="checkbox" />
+            <p>Write your to-do's here</p>
+            <input type="field" />
+            <input type="checkbox" />
+            <p>Write your to-do's here</p>
+            <input type="field" />
+            <input type="checkbox" />
         </div>
     )
 };
