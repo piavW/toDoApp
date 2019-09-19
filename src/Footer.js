@@ -1,10 +1,9 @@
 import React from 'react'
 
-
 function Footer() {
     return(
         <footer className="footer">
-            <p>This is my footer</p>
+            <p>Created with love, by Pia von Wachenfelt</p>
         </footer>
     )
 };

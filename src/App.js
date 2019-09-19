@@ -1,16 +1,22 @@
 import React from 'react'
-import Main from './main'
+import ToDo from './ToDo'
 import Header from './Header'
 import Footer from './Footer'
 
 
 function App() {
     return(
-        <div>
+        <>
             <Header />
-            <Main />
+            <div className="todolist">
+                <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
+            </div>
             <Footer />
-        </div>
+        </>
     )
 };
 
